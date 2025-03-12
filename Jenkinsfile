@@ -9,7 +9,7 @@ pipeline {
           git branch: 'main', url: 'https://github.com/lduffy0211/lbg-vat-calculator.git'
         }
         }
-    }
+    
     stage('Install') {
         steps {
             // Install the ReactJS dependencies
@@ -35,4 +35,5 @@ pipeline {
           }
         }
     }
+  }
   }
